@@ -1,15 +1,13 @@
 {
-  "name": "label-qr-app",
+  "name": "sellerSuite",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+    "preview": "vite preview"
+  },  
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
     "pdf-lib": "^1.17.1",
@@ -29,7 +27,6 @@
     "eslint": "^10.10.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.6",
-    "gh-pages": "^6.3.0",
     "globals": "^17.12.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.69.0",
